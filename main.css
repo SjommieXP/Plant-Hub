@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+body {
+    background-color: rgba(92, 138, 90, 0.9);
+    margin: 1px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}   a:hover {
+
+    color: aqua;
+}
+
+header {
+    background-color:rgba(92, 138, 90, 0.9)
+}
+
+.monstera {
+    height: 500px;
+} 
+
+ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navi {
+    color: aliceblue;
+    text-decoration: none;
+    flex-direction: row;
+
+}   .navi:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+.main {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 20px;
+
+}   .main:hover{
+    text-decoration: wavy;
+    color: aqua;
+}
+
+
+
+h2 {
+   /* text-align: center;*/
+    color:aliceblue;
+    padding-left: 20px;
+}
+
+p {
+    color:aliceblue;
+    margin: 100px 100px;
+    max-width: 670px;
+    text-align: center;
+}
+
+.minfo {
+
+    flex-direction: left;
+} 
+
+h3 {
+    color: aliceblue;
+    padding-left: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    height: 125px;
+    background:rgba(92, 138, 90, 0.9)
+}
